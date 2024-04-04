@@ -81,6 +81,10 @@
         padding: 0 0 36px 0;
     }
 
+    .project-item-wrap picture{
+        order: 3;
+    }
+
     .project-desc{
         padding-bottom: 12px;
     }
@@ -230,9 +234,11 @@
         line-height: 22vw;
         letter-spacing: -0.4rem;
         text-align: left;
+        position: sticky;
+        bottom: 0;
     }
 
-    .nav-text{
+    .body-text-cap{
         padding-bottom: 6px;
     }
 
@@ -247,12 +253,11 @@
 
     // INDEX PAGE
 
-    .home-wrap{
-        position: relative;
-        display: flex;
-        align-items: flex-end;
+    header{
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 12px
     }
-
 
 
 
