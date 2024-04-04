@@ -1,0 +1,19 @@
+// PRE LOADER
+
+
+.pre-loader{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    z-index: -100;
+}
+
+.loader-block{
+    background: #EC008C;
+    width: 25%;
+}
+
+.counter{
+    position: absolute;
+}

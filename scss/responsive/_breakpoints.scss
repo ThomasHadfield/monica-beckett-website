@@ -1,0 +1,322 @@
+// SITE BREAKPOINTS
+
+
+@media (max-width: 1200px){
+
+    // body{
+    //     background: red;
+    // }
+
+
+    // TYPOGRAPHY
+
+    .logo{
+        letter-spacing: -0.6rem;
+    }
+
+    h1{
+        font-size: 3.8rem;
+        line-height: 3.8rem;
+    }
+
+}
+
+
+
+
+
+@media (max-width: 900px){
+
+    // body{
+    //     background: blue;
+    // }
+
+
+    // GLOBAL
+
+    main{
+        margin-bottom: 60px;
+    }
+
+
+
+
+
+    // NAV
+    
+    .nav-text-name{
+        grid-column: 1 / span 4;
+    }
+
+
+
+
+    // TYPOGRAPHY
+
+    .logo{
+        letter-spacing: -0.4rem;
+    }
+
+    h1{
+        font-size: 3.8rem;
+        line-height: 3.8rem;
+    }
+
+
+
+
+
+    // WORK PAGE
+
+    .project-link-wrap{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-item-wrap{
+        display: flex;
+        flex-direction: column;
+        column-gap: 12px;
+        border-top: 0;
+        padding: 0 0 36px 0;
+    }
+
+    .project-desc{
+        padding-bottom: 12px;
+    }
+    
+    .project-item-last{
+        border-bottom: 0;
+    }
+    
+    .hero-image{
+        position: static;
+        opacity: 1;
+        pointer-events: all;
+        order: 3;
+    }
+
+    .project-item-wrap:hover .project-name{
+        transform: translateX(12px); 
+    }
+    
+    .project-item-wrap:hover .hero-image{
+        opacity: 75%;
+        transform: translateY(0); 
+    }
+
+
+
+
+
+    // ABOUT PAGE
+
+    .about-content{
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .about-content-left{
+        grid-column: 1 / span 5;
+    }
+
+    .about-content-right{
+        grid-column: 1 / span 6;
+        margin-top: 160px;
+    }
+    
+    .accomp-list{
+        margin-top: 60px;
+    }
+    
+    .accomp-item{
+        // background-color: blue;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        column-gap: 12px;
+        margin-bottom: 12px;
+    }
+    
+    .accomp-name{
+        grid-column: 1 / span 4;
+    }
+    
+    .accomp-year{
+        grid-column: 6 / span 1;
+    }
+
+
+
+
+
+    // PROJECT PAGE
+
+    .project-intro{
+        grid-template-columns: repeat(6, 1fr);
+        column-gap: 12px;
+    }
+    
+    .project-title{
+        grid-column: 1 / span 1;
+    }
+    
+    .project-info{
+        grid-column: 2 / span 2;
+    }
+    
+    .project-bio{
+        grid-column: 4 / span 3;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px){
+
+    // body{
+    //     background: orange;
+    // }
+
+
+    // GLOBAL
+
+    main{
+        margin-bottom: 40px;
+    }
+
+
+
+
+
+    // NAV
+
+    .top-nav{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 12px;
+    }
+
+    .nav-link-wrap{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 12px;
+        grid-column: 4 / span 1;
+    }
+
+    .nav-text-a,
+    .nav-text-b,
+    .nav-text-c,
+    .nav-text-d{
+        grid-column: 1 / span 1;
+    }
+
+    .nav-text-name{
+        grid-column: 1 / span 2;
+    }
+
+
+
+
+    // TYPE
+
+    .logo{ 
+        font-size: 29vw;
+        line-height: 22vw;
+        letter-spacing: -0.4rem;
+        text-align: left;
+    }
+
+    .nav-text{
+        padding-bottom: 6px;
+    }
+
+    .counter-text{
+        font-size: 22rem;
+        line-height: 16rem;
+        letter-spacing: -1rem;
+    }
+
+
+
+
+    // INDEX PAGE
+
+    .home-wrap{
+        position: relative;
+        display: flex;
+        align-items: flex-end;
+    }
+
+
+
+
+
+    // ABOUT PAGE
+
+    .about-content{
+        /* background-color: red; */
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .about-content-left{
+        grid-column: 1 / span 4;
+    }
+
+    .about-content-right{
+        // background-color: orange;
+        grid-column: 1 / span 4;
+        margin-top: 160px;
+    }
+    
+    .accomp-list{
+        margin-top: 60px;
+    }
+    
+    .accomp-item{
+        // background-color: blue;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 12px;
+        margin-bottom: 12px;
+    }
+    
+    .accomp-name{
+        grid-column: 1 / span 3;
+    }
+    
+    .accomp-year{
+        grid-column: 4 / span 1;
+    }
+
+
+
+
+
+    // PROJECT PAGE
+
+    .project-intro{
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 12px;
+    }
+    
+    .project-title{
+        grid-column: 1 / span 2;
+    }
+    
+    .project-info{
+        grid-column: 3 / span 2;
+    }
+    
+    .project-bio{
+        grid-column: 1 / span 4;
+        margin-top: 72px;
+    }
+
+
+}

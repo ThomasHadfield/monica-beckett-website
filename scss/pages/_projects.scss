@@ -1,0 +1,50 @@
+//WORK
+
+
+.project-link-wrap{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 12px;
+}
+
+.project-item-wrap{
+    grid-column: 8 / span 5;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 12px;
+    border-top: 1px solid #fff;
+    padding: 8px 0;
+    text-decoration: none;
+}
+
+.project-name{
+    grid-column: 1 / span 3;
+    transition-duration: 0.25s;
+}
+
+.project-item-last{
+    border-bottom: 1px solid #fff;
+}
+
+.hero-image{
+    position: absolute;
+    grid-column: 1 / span 7;
+    top: 12px;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: transform 0.5s cubic-bezier(0.87, 0, 0.13, 1);
+    transition-property: all;
+}
+
+.project-item-wrap:hover .project-name{
+    transform: translateX(12px); 
+}
+
+.project-item-wrap:hover .hero-image{
+    opacity: 1;
+    transform: translateY(-12px); 
+}
+
+

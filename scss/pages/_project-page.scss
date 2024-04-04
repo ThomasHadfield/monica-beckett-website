@@ -1,0 +1,26 @@
+.project-intro{
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 12px;
+}
+
+.project-title{
+    grid-column: 2 / span 2;
+}
+
+.project-info{
+    grid-column: 4 / span 3;
+}
+
+.project-bio{
+    grid-column: 8 / span 5;
+}
+
+.project-images-wrap{
+    margin-top: 150px;
+}
+
+.project-images-wrap img{
+    margin-bottom: 12px;
+}
