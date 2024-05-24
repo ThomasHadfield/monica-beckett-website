@@ -346,6 +346,22 @@ h1 a:active,
   margin-bottom: 12px;
 }
 
+.two-col-wrap {
+  display: flex;
+}
+
+.two-col {
+  width: 50%;
+}
+
+.two-col-left {
+  padding-right: 6px;
+}
+
+.two-col-right {
+  padding-left: 6px;
+}
+
 @media (max-width: 1200px) {
   .logo {
     letter-spacing: -0.6rem;
