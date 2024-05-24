@@ -318,7 +318,8 @@ h1 a:active,
   transform: translateY(-12px);
 }
 
-.project-intro {
+.project-intro,
+.bottom-btn-wrap {
   /* background-color: red; */
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -360,6 +361,10 @@ h1 a:active,
 
 .two-col-right {
   padding-left: 6px;
+}
+
+.back-btn {
+  grid-column: 11/span 2;
 }
 
 @media (max-width: 1200px) {
@@ -445,7 +450,8 @@ h1 a:active,
   .accomp-year {
     grid-column: 6/span 1;
   }
-  .project-intro {
+  .project-intro,
+  .bottom-btn-wrap {
     grid-template-columns: repeat(6, 1fr);
     -moz-column-gap: 12px;
          column-gap: 12px;
@@ -458,6 +464,9 @@ h1 a:active,
   }
   .project-bio {
     grid-column: 4/span 3;
+  }
+  .back-btn {
+    grid-column: 6/span 1;
   }
 }
 @media (max-width: 600px) {
@@ -534,7 +543,8 @@ h1 a:active,
   .accomp-year {
     grid-column: 4/span 1;
   }
-  .project-intro {
+  .project-intro,
+  .bottom-btn-wrap {
     grid-template-columns: repeat(4, 1fr);
     -moz-column-gap: 12px;
          column-gap: 12px;
@@ -548,5 +558,8 @@ h1 a:active,
   .project-bio {
     grid-column: 1/span 4;
     margin-top: 72px;
+  }
+  .back-btn {
+    grid-column: 4/span 1;
   }
 }/*# sourceMappingURL=style.css.map */

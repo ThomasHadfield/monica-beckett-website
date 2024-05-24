@@ -154,7 +154,8 @@
 
     // PROJECT PAGE
 
-    .project-intro{
+    .project-intro,
+    .bottom-btn-wrap{
         grid-template-columns: repeat(6, 1fr);
         column-gap: 12px;
     }
@@ -169,6 +170,10 @@
     
     .project-bio{
         grid-column: 4 / span 3;
+    }
+
+    .back-btn{
+        grid-column: 6 / span 1;
     }
 
 }
@@ -305,7 +310,8 @@
 
     // PROJECT PAGE
 
-    .project-intro{
+    .project-intro,
+    .bottom-btn-wrap{
         grid-template-columns: repeat(4, 1fr);
         column-gap: 12px;
     }
@@ -321,6 +327,10 @@
     .project-bio{
         grid-column: 1 / span 4;
         margin-top: 72px;
+    }
+
+    .back-btn{
+        grid-column: 4 / span 1;
     }
 
 
