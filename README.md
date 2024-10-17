@@ -10,3 +10,7 @@ Monica Beckett site 2024
 ### May 24, 2024
 - Uploaded edited image to forrest hill sales centre
 - Added more work button to project pages
+
+### May 24, 2024
+- Updated bio
+- Added text colour inversion to top nav
